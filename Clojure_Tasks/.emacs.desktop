@@ -1,0 +1,104 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jul 30 13:30:18 2015
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21945 55698 450999 971000) (desktop . "206") "technob@technob" nil nil ((((font-backend xft x) (font . "-unknown-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#839496") (background-color . "#002b36") (mouse-color . "black") (border-color . "#073642") (screen-gamma) (line-spacing) (left-fringe . 9) (right-fringe . 9) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#93a1a1") (sticky) (environment) (frameset--id . "E415-5C4E-62FF-E6C2") (frameset--mini t . t) (height . 35) (width . 80) (modeline . t) (minibuffer . t) (unsplittable) (left . 41) (top . 19) (icon-name) (visibility . t) (display . ":0.0") (explicit-name)) ((min-height . 8) (min-width . 10) (min-height-ignore . 6) (min-width-ignore . 4) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 152) (min-pixel-width . 90) (min-pixel-height-ignore . 114) (min-pixel-width-ignore . 36) (min-pixel-height-safe . 38) (min-pixel-width-safe . 18)) vc (pixel-width . 738) (pixel-height . 627) (total-width . 82) (total-height . 33) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 738) (pixel-height . 551) (total-width . 82) (total-height . 29) (normal-height . 0.8360071301247773) (normal-width . 1.0) (buffer "Fibonacci.clj —£À Clojure_Tasks" (selected . t) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 92) (start . 1))) (leaf (last . t) (pixel-width . 738) (pixel-height . 76) (total-width . 82) (total-height . 4) (normal-height . 0.16399286987522266) (normal-width . 1.0) (buffer "*cider-repl localhost*" (selected) (hscroll . 0) (fringes 9 9 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 584) (start . 498)))))])
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq dired-regexp-history nil)
+(setq extended-command-history '("cider-jack-in" "customize-themes"))
+(setq face-name-history nil)
+(setq file-name-history '("/home/technob/clojure_examples/ClojureScript/Clojure_Tasks/Fibonacci.clj" "~/clojure_examples/ClojureScript/Clojure_Tasks/fibi.clj" "/home/technob/clojure_examples/ClojureScript/Clojure_Examples/Fibonacci.clj" "/home/technob/clojure_examples/ClojureScript/Clojure_Examples/fibonacci.clj" "~/clojure_examples/ClojureScript/Clojure_Examples/fibi.clj" "~/.emacs.d/custom.el" "/home/technob/clojure_examples/ClojureScript/Clojure_Examples/fibi.clj" "~/clojure_examples/ClojureScript/Clojure_Examples/equalities.clj" "~/.emacs.d/ido.last" "/home/technob/.emacs.d/LICENSE" "~/.emacs.d/org-clock-save.el"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history nil)
+(setq ido-last-directory-list '(("/home/technob/Desktop/" . "Clojure_Examples/") ("/home/technob/" . "clojure_examples/")))
+(setq ido-work-directory-list '("/home/technob/clojure_examples/ClojureScript/Clojure_Tasks/" "/home/technob/clojure_examples/ClojureScript/Clojure_Examples/" "/home/technob/clojure_examples/" "/home/technob/.emacs.d/"))
+(setq ido-work-file-list '("Fibonacci.clj" "fibonacci.clj" "fibi.clj" "LICENSE"))
+(setq minibuffer-history nil)
+(setq org-clock-history nil)
+(setq org-refile-history nil)
+(setq org-tags-history nil)
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq search-ring nil)
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/technob/clojure_examples/ClojureScript/Clojure_Tasks/Fibonacci.clj"
+  "Fibonacci.clj"
+  'clojure-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode flycheck-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode rainbow-delimiters-mode aggressive-indent-mode eldoc-mode redshank-mode subword-mode cider-mode)
+  92
+  '(92 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "Clojure_Tasks"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whitespace-cleanup-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode diff-hl-dired-mode)
+  263
+  '(nil nil)
+  t
+  '("/home/technob/clojure_examples/ClojureScript/Clojure_Tasks/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "ClojureScript"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whitespace-cleanup-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode diff-hl-dired-mode)
+  315
+  '(nil nil)
+  t
+  '("/home/technob/clojure_examples/ClojureScript/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "Clojure_Examples"
+  'dired-mode
+  '(anzu-mode global-auto-revert-mode whitespace-cleanup-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode diff-hl-dired-mode)
+  214
+  '(nil nil)
+  t
+  '("/home/technob/clojure_examples/ClojureScript/Clojure_Examples/")
+  nil)
+
+(desktop-create-buffer 206
+  "/home/technob/clojure_examples/ClojureScript/Clojure_Examples/Fibonacci.clj"
+  "Fibonacci.clj"
+  'clojure-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode flycheck-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode rainbow-delimiters-mode aggressive-indent-mode eldoc-mode redshank-mode subword-mode cider-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/technob/clojure_examples/ClojureScript/Clojure_Examples/fibonacci.clj"
+  "fibonacci.clj"
+  'clojure-mode
+  '(anzu-mode auto-complete-mode global-auto-revert-mode whitespace-cleanup-mode undo-tree-mode whole-line-or-region-mode hes-mode guide-key-mode auto-compile-on-load-mode flycheck-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode diff-hl-mode highlight-symbol-mode rainbow-delimiters-mode aggressive-indent-mode eldoc-mode redshank-mode subword-mode cider-mode)
+  1
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
